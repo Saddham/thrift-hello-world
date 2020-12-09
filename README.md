@@ -1,4 +1,4 @@
-# Thrift
+# Thrift Java server & NodeJS client
 
 ### Generating Java files 
 
@@ -18,7 +18,7 @@ thrift -r --gen js:node ./src/main/thrift/UserAPIs.thrift
 mvn exec:java -Dexec.mainClass=com.users.Main
 ```
 
-### Run the client
+### Run the NodeJS client
 
 ```
 node js-client.js
