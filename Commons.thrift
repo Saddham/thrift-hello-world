@@ -1,0 +1,4 @@
+const string FOO = "bar"
+
+
+
